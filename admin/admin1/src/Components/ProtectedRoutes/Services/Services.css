@@ -1,0 +1,7 @@
+.red-image {
+  filter: brightness(50%); /* Adjust the brightness to make the image red */
+}
+
+.black-text {
+  color: black;
+}

@@ -1,0 +1,23 @@
+/* global.css */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('../../');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass-container {
+  background: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
+  border-radius: 15px;
+  padding: 20px;
+  backdrop-filter: blur(10px); /* Glass effect */
+  -webkit-backdrop-filter: blur(10px); /* Glass effect for Safari */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
